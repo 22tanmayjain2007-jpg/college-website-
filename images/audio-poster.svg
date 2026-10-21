@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" width="600" height="240">
+  <defs>
+    <linearGradient id="apGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="240" rx="16" fill="url(#apGrad)"/>
+  <!-- Sound wave graphic -->
+  <g transform="translate(180, 70)" stroke="#38BDF8" stroke-width="4" stroke-linecap="round">
+    <line x1="0" y1="30" x2="0" y2="50"/>
+    <line x1="16" y1="15" x2="16" y2="65"/>
+    <line x1="32" y1="5" x2="32" y2="75"/>
+    <line x1="48" y1="20" x2="48" y2="60"/>
+    <line x1="64" y1="0" x2="64" y2="80"/>
+    <line x1="80" y1="15" x2="80" y2="65"/>
+    <line x1="96" y1="28" x2="96" y2="52"/>
+    <line x1="112" y1="10" x2="112" y2="70"/>
+    <line x1="128" y1="2" x2="128" y2="78"/>
+    <line x1="144" y1="22" x2="144" y2="58"/>
+    <line x1="160" y1="32" x2="160" y2="48"/>
+    <line x1="176" y1="12" x2="176" y2="68"/>
+    <line x1="192" y1="0" x2="192" y2="80"/>
+    <line x1="208" y1="18" x2="208" y2="62"/>
+    <line x1="224" y1="30" x2="224" y2="50"/>
+  </g>
+  <text x="300" y="175" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Official Department Welcome Address</text>
+  <text x="300" y="200" font-family="'Segoe UI', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">Listen to the message from the Head of Department</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="fGradRS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="url(#fGradRS)" stroke="#38BDF8" stroke-width="3"/>
+  <!-- Stylized Scholar silhouette -->
+  <circle cx="80" cy="62" r="26" fill="#38BDF8" opacity="0.3"/>
+  <circle cx="80" cy="60" r="22" fill="#E2E8F0"/>
+  <path d="M42 125 C42 98 60 92 80 92 C100 92 118 98 118 125 Z" fill="#94A3B8"/>
+  <circle cx="80" cy="80" r="76" fill="none" stroke="#38BDF8" stroke-width="2.5" opacity="0.6"/>
+  <!-- Initials Badge -->
+  <rect x="100" y="105" width="40" height="24" rx="12" fill="#38BDF8"/>
+  <text x="120" y="121" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="800" fill="#0F172A" text-anchor="middle">RS</text>
+</svg>

@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of the Department of Computer Science & Engineering at JECRC Institute of Technology. Explore our academic programs, distinguished faculty, state-of-the-art laboratories, research initiatives, and student achievements.">
+  <meta name="keywords" content="Computer Science, Engineering, JECRC Institute of Technology, B.Tech CSE, AI & ML, Data Science, College Department Website, HTML5 Assignment">
+  <meta name="author" content="Department of Computer Science & Engineering - JECRC Institute of Technology">
+  <title>Department of Computer Science &amp; Engineering | JECRC Institute of Technology</title>
+
+  <!-- Google Fonts: Modern Typography (Plus Jakarta Sans & Fira Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       1. HEADER + NAVIGATION BAR (Semantic <header> & <nav>)
+       =================================================================== -->
+  <!-- SEMANTIC HTML5: <header> represents introductory content and navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      
+      <!-- College Emblem & Department Identity Link -->
+      <a href="#hero" class="brand-link" aria-label="JECRC Institute of Technology - Back to top">
+        <img src="images/college-logo.svg" alt="JECRC Institute of Technology Emblem" class="brand-logo" width="240" height="60">
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNavigation">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- SEMANTIC HTML5: <nav> element defines primary navigation links -->
+      <nav class="primary-nav" id="primaryNavigation" aria-label="Primary Site Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#faculty" class="nav-link">Faculty</a></li>
+          <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#multimedia" class="nav-link">Multimedia</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-cta">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- SEMANTIC HTML5: <main> represents the dominant content of the document -->
+  <main id="mainContent">
+
+    <!-- ===================================================================
+         2. HERO / HOME SECTION (Semantic <section id="hero">)
+         =================================================================== -->
+    <section class="hero-section" id="hero" aria-label="Department Overview">
+      <div class="hero-backdrop-glow"></div>
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span> Academic Year 2026–2027 • Accredited Excellence
+          </div>
+          <h1 class="hero-title">
+            Department of <span class="highlight-gradient">Computer Science</span> &amp; Engineering
+          </h1>
+          <p class="hero-tagline">
+            "Innovating Today. Engineering Tomorrow."
+          </p>
+          <p class="hero-description">
+            Welcome to the flagship engineering department at <strong>JECRC Institute of Technology</strong>. We empower future technocrats with rigorous foundational computing, high-performance artificial intelligence systems, cloud engineering, and a collaborative spirit of scientific inquiry.
+          </p>
+          
+          <div class="hero-actions">
+            <!-- HTML5 Links: Internal section links -->
+            <a href="#about" class="btn btn-primary">Explore Department</a>
+            <a href="#contact" class="btn btn-secondary">Contact Department</a>
+          </div>
+
+          <!-- Quick Statistics Bar demonstrating key highlights -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Faculty Members</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">8+</span>
+              <span class="stat-label">Specialized Labs</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Academic Programs</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Active Students</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <figure class="hero-figure">
+            <img src="images/hero-tech-visual.svg" alt="Futuristic Computer Science IDE and Neural Architecture Visual" class="hero-img" width="600" height="450">
+            <figcaption class="sr-only">Interactive visualization of algorithmic problem solving and lab infrastructure</figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         3. DEPARTMENT INTRODUCTION (Semantic <section id="about">)
+         =================================================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Department Introduction</span>
+          <h2 class="section-title">Nurturing Leaders in Computing &amp; Technology</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            The Department of Computer Science &amp; Engineering at JECRC Institute of Technology is dedicated to providing world-class technical education, fostering transformative research, and preparing engineers for global impact.
+          </p>
+        </header>
+
+        <!-- Main About Grid combining semantic <article> and <aside> -->
+        <div class="about-grid">
+          
+          <!-- SEMANTIC HTML5: <article> encapsulates independent, self-contained educational content -->
+          <article class="about-main-article">
+            
+            <header class="article-header">
+              <h3>Academic Foundations &amp; Vision</h3>
+            </header>
+
+            <div class="vision-mission-cards">
+              <div class="info-box vision-box">
+                <div class="info-icon">👁️</div>
+                <div>
+                  <h4>Our Vision</h4>
+                  <p>To be an acclaimed center of excellence in Computer Science education and research, producing ethical, globally competent software engineers and technology leaders who solve real-world socio-economic challenges.</p>
+                </div>
+              </div>
+
+              <div class="info-box mission-box">
+                <div class="info-icon">🎯</div>
+                <div>
+                  <h4>Our Mission</h4>
+                  <!-- HTML5 List: Unordered <ul> -->
+                  <ul class="custom-list">
+                    <li>Deliver rigorous academic curricula grounded in computer science fundamentals and modern industry practices.</li>
+                    <li>Nurture an environment conducive to innovative research, patents, and high-impact computing solutions.</li>
+                    <li>Promote industry-institute partnerships, hackathons, and lifelong learning attitudes.</li>
+                    <li>Instill professional ethics, team collaboration, and societal responsibility in every student.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Learning Approach & Industry Education Details -->
+            <div class="learning-approach-content">
+              <h4>Learning Approach &amp; Industry-Oriented Education</h4>
+              <p>
+                We believe computer science cannot be mastered through lectures alone. Our pedagogical framework embraces <strong>experiential learning</strong>, peer programming, live industry capstones, and active participation in global open-source ecosystems.
+              </p>
+              
+              <!-- HTML5 List: Ordered <ol> demonstrating 4-Year Engineering Journey -->
+              <h5>The 4-Year Engineering Progression Pathway:</h5>
+              <ol class="numbered-pipeline">
+                <li>
+                  <strong>Foundation Year:</strong> Computational thinking, Data Structures, Discrete Mathematics, and Computer Architecture.
+                </li>
+                <li>
+                  <strong>Core Specialization:</strong> Object-Oriented Design, Operating Systems, Database Management, and Computer Networks.
+                </li>
+                <li>
+                  <strong>Applied Intelligence:</strong> Machine Learning, Cloud Native Systems, Full-Stack Architecture, and Information Security.
+                </li>
+                <li>
+                  <strong>Capstone &amp; Industry Incubation:</strong> Multi-disciplinary research projects, industry internships, and enterprise deployments.
+                </li>
+              </ol>
+
+              <!-- HTML5 List: Definition List <dl> for Key Computing Pillars -->
+              <h5>Core Computing Domains (Knowledge Taxonomy):</h5>
+              <dl class="domain-definition-list">
+                <dt>Artificial Intelligence &amp; Neural Systems</dt>
+                <dd>Designing autonomous algorithms, natural language processors, and computer vision models capable of real-time cognition.</dd>
+
+                <dt>Distributed Systems &amp; Cloud Infrastructure</dt>
+                <dd>Building scalable, fault-tolerant enterprise backends using microservices, containers, and serverless architectures.</dd>
+
+                <dt>Cybersecurity &amp; Cryptographic Defense</dt>
+                <dd>Safeguarding digital perimeters through threat modeling, ethical penetration testing, and zero-trust protocol design.</dd>
+              </dl>
+            </div>
+
+            <footer class="article-footer">
+              <p class="tag-note">
+                <small>Curriculum benchmarked in accordance with national engineering education frameworks and ACM/IEEE Computing Guidelines.</small>
+              </p>
+            </footer>
+          </article>
+
+          <!-- SEMANTIC HTML5: <aside> for supplementary departmental highlights, bulletin, and notices -->
+          <aside class="about-sidebar">
+            <div class="sidebar-card notice-card">
+              <h4 class="sidebar-title">⚡ Department Notice Board</h4>
+              <ul class="notice-list">
+                <li>
+                  <span class="notice-date">Oct 12, 2026</span>
+                  <a href="#achievements" class="notice-link">Submissions open for Annual CodeStorm 24-hr Hackathon</a>
+                </li>
+                <li>
+                  <span class="notice-date">Oct 18, 2026</span>
+                  <a href="#multimedia" class="notice-link">Guest Lecture: Scalable Deep Learning on Edge Devices</a>
+                </li>
+                <li>
+                  <span class="notice-date">Nov 05, 2026</span>
+                  <a href="#courses" class="notice-link">B.Tech Mini-Project Synopsis Reviews for Semesters 5 &amp; 7</a>
+                </li>
+                <li>
+                  <span class="notice-date">Nov 14, 2026</span>
+                  <a href="#contact" class="notice-link">Industry Advisory Board Meeting &amp; Curriculum Audit</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar-card dean-card">
+              <h4 class="sidebar-title">🎓 Message from HOD</h4>
+              <blockquote class="hod-quote">
+                "Computer science is the canvas upon which the modern world is engineered. At JECRC, our mission is to transform curious minds into problem solvers who build sustainable, human-centric software."
+              </blockquote>
+              <div class="hod-signature">
+                <strong>Dr. Rajesh Sharma</strong>
+                <span>Ph.D. (IIT Delhi), HOD &amp; Professor</span>
+              </div>
+            </div>
+
+            <div class="sidebar-card accreditation-card">
+              <h4 class="sidebar-title">🏛️ Department Highlights</h4>
+              <ul class="highlight-checklist">
+                <li>✓ 100% High-Speed Gigabit Fiber Campus</li>
+                <li>✓ Center of Excellence in Artificial Intelligence</li>
+                <li>✓ Active ACM &amp; IEEE Student Branches</li>
+                <li>✓ 24/7 Hacker Hub &amp; Research Incubator</li>
+              </ul>
+            </div>
+          </aside>
+
+        </div>
+
+        <!-- "Why Choose CSE?" Feature Cards Area -->
+        <div class="why-choose-wrapper">
+          <h3 class="subsection-title text-center">Why Choose CSE at JECRC?</h3>
+          <p class="subsection-desc text-center">Empowering students with comprehensive technical acumen and holistic professional development.</p>
+
+          <div class="features-grid">
+            
+            <div class="feature-card">
+              <div class="feature-icon-badge">👨‍🏫</div>
+              <h4>Experienced Faculty</h4>
+              <p>Distinguished mentors and doctorates from premier institutions bringing profound research acumen and dedicated student guidance.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-badge">🖥️</div>
+              <h4>Modern Laboratories</h4>
+              <p>8 state-of-the-art computer labs with high-end GPU workstations, cloud computing testbeds, and dedicated IoT prototyping benches.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-badge">🌐</div>
+              <h4>Industry Exposure</h4>
+              <p>Regular tech talks, expert workshops, industrial internships, and collaborative sandbox projects with top tech organizations.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-badge">🔬</div>
+              <h4>Research &amp; Innovation</h4>
+              <p>Active research groups in computer vision, quantum computing, distributed systems, and natural language processing.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-badge">💻</div>
+              <h4>Coding Culture</h4>
+              <p>A thriving competitive programming culture with student-led weekly contests, algorithmic bootcamps, and 24-hour hackathons.</p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon-badge">🚀</div>
+              <h4>Career Development</h4>
+              <p>Comprehensive training in system design, technical interview problem solving, open-source portfolio development, and communication.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         4. COURSES OFFERED (Semantic <section id="courses">)
+         =================================================================== -->
+    <section class="section courses-section" id="courses">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Academic Programs</span>
+          <h2 class="section-title">Industry-Aligned Computing Curricula</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Explore our accredited undergraduate and professional certificate programs designed to prepare students for tomorrow's technology landscape.
+          </p>
+        </header>
+
+        <!-- Course Cards Grid -->
+        <div class="courses-grid">
+
+          <!-- Course 1 -->
+          <article class="course-card">
+            <div class="course-badge">Flagship Undergraduate</div>
+            <div class="course-card-header">
+              <h3 class="course-name">B.Tech Computer Science &amp; Engineering</h3>
+              <div class="course-meta">
+                <span class="meta-item">⏱️ <strong>Duration:</strong> 4 Years (8 Semesters)</span>
+                <span class="meta-item">🎯 <strong>Intake:</strong> 180 Seats</span>
+              </div>
+            </div>
+            <div class="course-card-body">
+              <p class="course-overview">
+                A thorough study of fundamental computer science, software engineering principles, algorithm design, hardware-software integration, and scalable system architectures.
+              </p>
+              <div class="course-section-block">
+                <h4>Major Subjects:</h4>
+                <ul class="tag-list">
+                  <li>Data Structures &amp; Algorithms</li>
+                  <li>Operating Systems</li>
+                  <li>Database Management</li>
+                  <li>Computer Networks</li>
+                  <li>Compiler Design</li>
+                  <li>Software Engineering</li>
+                </ul>
+              </div>
+              <div class="course-section-block">
+                <h4>Career Opportunities:</h4>
+                <p class="career-text">Software Development Engineer (SDE), Systems Architect, DevOps Engineer, Full Stack Developer, Technical Consultant.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <button class="btn btn-outline course-modal-btn" data-course="btech-cse">Learn More &amp; Syllabus</button>
+            </div>
+          </article>
+
+          <!-- Course 2 -->
+          <article class="course-card">
+            <div class="course-badge badge-accent">Emerging Specialization</div>
+            <div class="course-card-header">
+              <h3 class="course-name">B.Tech Artificial Intelligence &amp; Machine Learning</h3>
+              <div class="course-meta">
+                <span class="meta-item">⏱️ <strong>Duration:</strong> 4 Years (8 Semesters)</span>
+                <span class="meta-item">🎯 <strong>Intake:</strong> 60 Seats</span>
+              </div>
+            </div>
+            <div class="course-card-body">
+              <p class="course-overview">
+                Focused on machine perception, cognitive algorithms, generative deep neural networks, natural language processing, and ethical artificial intelligence deployment.
+              </p>
+              <div class="course-section-block">
+                <h4>Major Subjects:</h4>
+                <ul class="tag-list">
+                  <li>Machine Learning Algorithms</li>
+                  <li>Deep Neural Networks</li>
+                  <li>Natural Language Processing</li>
+                  <li>Computer Vision</li>
+                  <li>Reinforcement Learning</li>
+                  <li>AI Ethics &amp; Governance</li>
+                </ul>
+              </div>
+              <div class="course-section-block">
+                <h4>Career Opportunities:</h4>
+                <p class="career-text">AI Engineer, Machine Learning Scientist, NLP Specialist, Computer Vision Engineer, Automation Researcher.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <button class="btn btn-outline course-modal-btn" data-course="btech-aiml">Learn More &amp; Syllabus</button>
+            </div>
+          </article>
+
+          <!-- Course 3 -->
+          <article class="course-card">
+            <div class="course-badge badge-data">Big Data &amp; Insights</div>
+            <div class="course-card-header">
+              <h3 class="course-name">B.Tech Data Science</h3>
+              <div class="course-meta">
+                <span class="meta-item">⏱️ <strong>Duration:</strong> 4 Years (8 Semesters)</span>
+                <span class="meta-item">🎯 <strong>Intake:</strong> 60 Seats</span>
+              </div>
+            </div>
+            <div class="course-card-body">
+              <p class="course-overview">
+                Dedicated to computational statistics, massive distributed data processing, predictive modeling, data visualization, and decision intelligence systems.
+              </p>
+              <div class="course-section-block">
+                <h4>Major Subjects:</h4>
+                <ul class="tag-list">
+                  <li>Applied Statistical Methods</li>
+                  <li>Big Data Processing (Hadoop/Spark)</li>
+                  <li>Data Mining &amp; Warehousing</li>
+                  <li>Data Visualization &amp; BI</li>
+                  <li>Predictive Analytics</li>
+                  <li>Cloud Data Engineering</li>
+                </ul>
+              </div>
+              <div class="course-section-block">
+                <h4>Career Opportunities:</h4>
+                <p class="career-text">Data Scientist, Big Data Engineer, Business Intelligence Architect, Quantitative Analyst, Analytics Consultant.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <button class="btn btn-outline course-modal-btn" data-course="btech-ds">Learn More &amp; Syllabus</button>
+            </div>
+          </article>
+
+          <!-- Course 4 -->
+          <article class="course-card">
+            <div class="course-badge badge-cert">Professional Certificate</div>
+            <div class="course-card-header">
+              <h3 class="course-name">Diploma in Full Stack Web Development</h3>
+              <div class="course-meta">
+                <span class="meta-item">⏱️ <strong>Duration:</strong> 1 Year (2 Semesters)</span>
+                <span class="meta-item">🎯 <strong>Intake:</strong> 40 Seats</span>
+              </div>
+            </div>
+            <div class="course-card-body">
+              <p class="course-overview">
+                An intensive hands-on professional certificate covering modern frontend architectures, REST/GraphQL backend APIs, cloud deployment, and accessibility standards.
+              </p>
+              <div class="course-section-block">
+                <h4>Major Subjects:</h4>
+                <ul class="tag-list">
+                  <li>HTML5, CSS3 &amp; Responsive Web</li>
+                  <li>Modern JavaScript &amp; TypeScript</li>
+                  <li>Node.js &amp; Express APIs</li>
+                  <li>SQL &amp; NoSQL Databases</li>
+                  <li>Web Security &amp; Auth (OAuth/JWT)</li>
+                  <li>CI/CD &amp; Cloud Hosting</li>
+                </ul>
+              </div>
+              <div class="course-section-block">
+                <h4>Career Opportunities:</h4>
+                <p class="career-text">Full Stack Web Developer, Frontend Engineer, Backend API Developer, UI/UX Web Integrator, Web Application Specialist.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <button class="btn btn-outline course-modal-btn" data-course="diploma-web">Learn More &amp; Syllabus</button>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- ===============================================================
+             14. HTML5 TABLE REQUIREMENT: Course Comparison Table
+             =============================================================== -->
+        <div class="table-container-wrapper">
+          <h3 class="subsection-title">Academic Program Comparison Matrix</h3>
+          <p class="table-subtitle">Summary overview of academic degrees, eligibility parameters, and focus domains.</p>
+          
+          <div class="table-responsive">
+            <!-- SEMANTIC HTML5: <table> with <caption>, <thead>, <tbody>, <th>, <td> -->
+            <table class="course-table" aria-label="Course Comparison Table">
+              <caption>Comprehensive Comparison of Computer Science Academic Programs (2026-2027)</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Course Title</th>
+                  <th scope="col">Duration</th>
+                  <th scope="col">Eligibility Criteria</th>
+                  <th scope="col">Key Focus Areas</th>
+                  <th scope="col">Annual Intake</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">B.Tech Computer Science &amp; Engineering</th>
+                  <td>4 Years (Full-Time)</td>
+                  <td>10+2 with Physics, Mathematics &amp; Chemistry (Min 60%)</td>
+                  <td>Algorithms, Systems Programming, Database Systems, Cloud</td>
+                  <td>180 Students</td>
+                </tr>
+                <tr>
+                  <th scope="row">B.Tech Artificial Intelligence &amp; Machine Learning</th>
+                  <td>4 Years (Full-Time)</td>
+                  <td>10+2 with Physics, Mathematics &amp; Computer/Chemistry (Min 65%)</td>
+                  <td>Neural Networks, Deep Learning, Computer Vision, Robotics</td>
+                  <td>60 Students</td>
+                </tr>
+                <tr>
+                  <th scope="row">B.Tech Data Science</th>
+                  <td>4 Years (Full-Time)</td>
+                  <td>10+2 with Mathematics/Statistics mandatory (Min 60%)</td>
+                  <td>Big Data Analytics, Statistical Modeling, Predictive BI, Spark</td>
+                  <td>60 Students</td>
+                </tr>
+                <tr>
+                  <th scope="row">Diploma in Full Stack Web Development</th>
+                  <td>1 Year (Full-Time)</td>
+                  <td>Diploma or Bachelor's Degree in any discipline / 10+2 equivalent</td>
+                  <td>HTML5/CSS3, Modern JavaScript, Node.js, Web Security</td>
+                  <td>40 Students</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         5. FACULTY INFORMATION (Semantic <section id="faculty">)
+         =================================================================== -->
+    <section class="section faculty-section" id="faculty">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Distinguished Educators</span>
+          <h2 class="section-title">Department Faculty &amp; Researchers</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Learn from accomplished educators, seasoned industry advisors, and passionate researchers dedicated to student excellence.
+          </p>
+        </header>
+
+        <!-- Faculty Grid with 6 Fictional Faculty Cards -->
+        <div class="faculty-grid">
+
+          <!-- Faculty 1 -->
+          <!-- SEMANTIC HTML5: <article> for individual faculty member profile -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-rajesh.svg" alt="Photo of Dr. Rajesh Sharma" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge hod-badge">Head of Department</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Dr. Rajesh Sharma</h3>
+              <p class="faculty-designation">Professor &amp; Head of Department</p>
+              <p class="faculty-qualification">Ph.D. in Computer Science (IIT Delhi), M.Tech (CSE)</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Artificial Intelligence</span>
+                <span class="spec-tag">Deep Learning</span>
+              </div>
+              <p class="faculty-bio">
+                Over 18 years of academic and research experience. Author of 30+ peer-reviewed international publications in neural network architectures and autonomous cognitive systems.
+              </p>
+              <!-- HTML5 Link: mailto: link -->
+              <div class="faculty-contact">
+                <a href="mailto:rajesh.sharma@jecrc.ac.in" class="faculty-email-link" aria-label="Email Dr. Rajesh Sharma">
+                  ✉️ rajesh.sharma@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Faculty 2 -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-sunita.svg" alt="Photo of Dr. Sunita Meena" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge">Senior Faculty</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Dr. Sunita Meena</h3>
+              <p class="faculty-designation">Associate Professor</p>
+              <p class="faculty-qualification">Ph.D. in Information Security (NIT Jaipur), M.Tech</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Cyber Security</span>
+                <span class="spec-tag">Cryptography</span>
+              </div>
+              <p class="faculty-bio">
+                Specializes in secure network communication, zero-knowledge proofs, and ethical hacking. Faculty advisor for the college Cyber Shield CTF security club.
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:sunita.meena@jecrc.ac.in" class="faculty-email-link" aria-label="Email Dr. Sunita Meena">
+                  ✉️ sunita.meena@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Faculty 3 -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-vikram.svg" alt="Photo of Prof. Vikram Patel" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge">Cloud Systems Lead</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Prof. Vikram Patel</h3>
+              <p class="faculty-designation">Assistant Professor</p>
+              <p class="faculty-qualification">M.Tech in Software Engineering (BITS Pilani), B.Tech</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Cloud Computing</span>
+                <span class="spec-tag">Distributed Systems</span>
+              </div>
+              <p class="faculty-bio">
+                Certified Kubernetes Administrator with 10 years of prior software industry experience building microservices and fault-tolerant cloud backends.
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:vikram.patel@jecrc.ac.in" class="faculty-email-link" aria-label="Email Prof. Vikram Patel">
+                  ✉️ vikram.patel@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Faculty 4 -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-ananya.svg" alt="Photo of Dr. Ananya Verma" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge">Data Science Lead</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Dr. Ananya Verma</h3>
+              <p class="faculty-designation">Associate Professor</p>
+              <p class="faculty-qualification">Ph.D. in Data Science (IIIT Hyderabad), M.Tech (CSE)</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Data Science</span>
+                <span class="spec-tag">Predictive Analytics</span>
+              </div>
+              <p class="faculty-bio">
+                Expert in massive distributed data mining, econometric forecasting, and biomedical signal analytics. Mentors senior capstone research fellows.
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:ananya.verma@jecrc.ac.in" class="faculty-email-link" aria-label="Email Dr. Ananya Verma">
+                  ✉️ ananya.verma@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Faculty 5 -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-rohan.svg" alt="Photo of Prof. Rohan Mukherjee" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge">Robotics Coordinator</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Prof. Rohan Mukherjee</h3>
+              <p class="faculty-designation">Assistant Professor</p>
+              <p class="faculty-qualification">M.Tech in AI &amp; Robotics (IIT Roorkee)</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Machine Learning</span>
+                <span class="spec-tag">Computer Vision</span>
+              </div>
+              <p class="faculty-bio">
+                Passionate educator guiding drone visual odometry and object detection projects. Coordinates the annual inter-college robotics exhibition.
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:rohan.mukherjee@jecrc.ac.in" class="faculty-email-link" aria-label="Email Prof. Rohan Mukherjee">
+                  ✉️ rohan.mukherjee@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Faculty 6 -->
+          <article class="faculty-card">
+            <div class="faculty-header">
+              <img src="images/faculty-priya.svg" alt="Photo of Prof. Priya Nair" class="faculty-photo" width="120" height="120">
+              <span class="faculty-badge">Web Tech Lead</span>
+            </div>
+            <div class="faculty-content">
+              <h3 class="faculty-name">Prof. Priya Nair</h3>
+              <p class="faculty-designation">Assistant Professor</p>
+              <p class="faculty-qualification">M.Tech in Computer Science, B.Tech (IT)</p>
+              <div class="faculty-spec">
+                <strong>Specialization:</strong>
+                <span class="spec-tag">Web Technologies</span>
+                <span class="spec-tag">Full Stack DevOps</span>
+              </div>
+              <p class="faculty-bio">
+                Teaches advanced frontend architectures, web standards, and cloud API development. Chief mentor for the campus Web Innovation Club.
+              </p>
+              <div class="faculty-contact">
+                <a href="mailto:priya.nair@jecrc.ac.in" class="faculty-email-link" aria-label="Email Prof. Priya Nair">
+                  ✉️ priya.nair@jecrc.ac.in
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         6. STUDENT ACHIEVEMENTS (Semantic <section id="achievements">)
+         =================================================================== -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Excellence in Action</span>
+          <h2 class="section-title">Student Achievements &amp; Laurels</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Celebrating the innovation, competitive programming victories, research accolades, and technical showcases of our students.
+          </p>
+        </header>
+
+        <!-- Achievements Grid -->
+        <div class="achievements-grid">
+
+          <!-- Achievement 1 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">🏆</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <!-- SEMANTIC HTML5: <time> tag for machine-readable dates -->
+                <time datetime="2025" class="achievement-year">2025</time>
+                <span class="achievement-tag">National Hackathon</span>
+              </div>
+              <h3 class="achievement-title">Smart India Hackathon – 1st Runner Up</h3>
+              <p class="achievement-desc">
+                Developed an AI-driven intelligent traffic coordination model that mitigates emergency vehicle delays using real-time edge computer vision sensors.
+              </p>
+              <div class="achievement-team">
+                <strong>Team:</strong> <span>NeuralCraft (4 Students, B.Tech CSE 3rd Year)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Achievement 2 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">⚡</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <time datetime="2025" class="achievement-year">2025</time>
+                <span class="achievement-tag">Competitive Coding</span>
+              </div>
+              <h3 class="achievement-title">ACM ICPC Regional Contest Finalists</h3>
+              <p class="achievement-desc">
+                Ranked in top 15 among over 350 collegiate teams nationally, demonstrating phenomenal algorithmic problem solving in dynamic programming and graph theory.
+              </p>
+              <div class="achievement-team">
+                <strong>Team:</strong> <span>CodeMatrix (3 Students, B.Tech CSE Final Year)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Achievement 3 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">📄</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <time datetime="2024" class="achievement-year">2024</time>
+                <span class="achievement-tag">Research Publication</span>
+              </div>
+              <h3 class="achievement-title">IEEE Conference Best Student Paper</h3>
+              <p class="achievement-desc">
+                Published research paper on "Federated Learning Optimization for Distributed Mobile Medical Devices" at the International IEEE Conference on Intelligent Computing.
+              </p>
+              <div class="achievement-team">
+                <strong>Authors:</strong> <span>Aarav Mehta &amp; Sneha Sen (Mentored by Dr. Rajesh Sharma)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Achievement 4 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">🤖</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <time datetime="2024" class="achievement-year">2024</time>
+                <span class="achievement-tag">Hardware &amp; IoT</span>
+              </div>
+              <h3 class="achievement-title">National Robotics &amp; IoT Showcase Winner</h3>
+              <p class="achievement-desc">
+                Engineered an autonomous disaster reconnaissance drone equipped with thermal imaging and mesh-network communication for search-and-rescue teams.
+              </p>
+              <div class="achievement-team">
+                <strong>Team:</strong> <span>AeroBots (Students across CSE &amp; AI-ML)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Achievement 5 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">🌐</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <time datetime="2024" class="achievement-year">2024</time>
+                <span class="achievement-tag">Web Engineering</span>
+              </div>
+              <h3 class="achievement-title">Inter-College Web Innovation Trophy</h3>
+              <p class="achievement-desc">
+                Awarded Gold for architecting a fully accessible, lightweight campus learning portal with keyboard navigation, offline service workers, and screen-reader compliance.
+              </p>
+              <div class="achievement-team">
+                <strong>Student:</strong> <span>Kavya Singhal (B.Tech CSE 2nd Year)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Achievement 6 -->
+          <article class="achievement-card">
+            <div class="achievement-icon">🛡️</div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <time datetime="2023" class="achievement-year">2023</time>
+                <span class="achievement-tag">Cyber Defense</span>
+              </div>
+              <h3 class="achievement-title">Cyber Shield National CTF – Top 5</h3>
+              <p class="achievement-desc">
+                Successfully decoded binary reverse engineering exploits, web penetration vectors, and cryptographic challenges in a 36-hour non-stop defense simulation.
+              </p>
+              <div class="achievement-team">
+                <strong>Team:</strong> <span>SecBytes (B.Tech CSE &amp; Cyber Security Club)</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="academic-note-box">
+          <p><em>*Note: The above achievement listings are curated realistic demo entries prepared for the HTML5 Academic Web Page Development project assignment.</em></p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         7. IMAGE GALLERY (Semantic <section id="gallery">)
+         =================================================================== -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Visual Tour</span>
+          <h2 class="section-title">Department Life &amp; Infrastructure Gallery</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Glimpse into our cutting-edge computing laboratories, vibrant hackathons, student workshops, and collaborative tech environment.
+          </p>
+        </header>
+
+        <!-- Gallery Category Filter Buttons -->
+        <div class="gallery-filter-buttons" role="group" aria-label="Gallery category filters">
+          <button class="filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn" data-filter="labs">Computer Labs</button>
+          <button class="filter-btn" data-filter="hackathons">Hackathons &amp; Coding</button>
+          <button class="filter-btn" data-filter="workshops">Workshops</button>
+          <button class="filter-btn" data-filter="projects">Student Projects</button>
+          <button class="filter-btn" data-filter="campus">Campus Life</button>
+        </div>
+
+        <!-- CSS Grid Gallery Container -->
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- Item 1: Computer Labs -->
+          <!-- SEMANTIC HTML5: <figure> and <figcaption> for captioned gallery media -->
+          <figure class="gallery-item" data-category="labs">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-lab.svg" alt="Advanced Artificial Intelligence Laboratory with GPU clusters" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>High-Performance AI Laboratory</strong>
+              <span class="gallery-tag">Computer Labs</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 2: Hackathons -->
+          <figure class="gallery-item" data-category="hackathons">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-hackathon.svg" alt="CodeStorm 2025 24-Hour Annual Hackathon" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>CodeStorm 24-Hour Hackathon</strong>
+              <span class="gallery-tag">Hackathons</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3: Workshops -->
+          <figure class="gallery-item" data-category="workshops">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-workshop.svg" alt="Hands-on Cloud Infrastructure and DevOps Workshop" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>Cloud &amp; DevOps Workshop</strong>
+              <span class="gallery-tag">Workshops</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 4: Projects / Robotics -->
+          <figure class="gallery-item" data-category="projects">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-robotics.svg" alt="IoT Sensor and Smart Robotics Exhibition" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>IoT &amp; Robotics Prototyping</strong>
+              <span class="gallery-tag">Student Projects</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 5: Student Projects -->
+          <figure class="gallery-item" data-category="projects">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-project.svg" alt="Annual Capstone Software Engineering Demonstration" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>Capstone Innovation Expo</strong>
+              <span class="gallery-tag">Student Projects</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 6: Campus Life -->
+          <figure class="gallery-item" data-category="campus">
+            <div class="gallery-image-wrapper">
+              <img src="images/gallery-campus.svg" alt="Tech Commons, Digital Library and Student Collaboration Space" class="gallery-thumb" loading="lazy" width="600" height="400">
+              <div class="gallery-overlay">
+                <span class="zoom-icon">🔍</span>
+                <span class="overlay-text">View Image</span>
+              </div>
+            </div>
+            <figcaption class="gallery-caption">
+              <strong>Tech Commons &amp; Digital Library</strong>
+              <span class="gallery-tag">Campus Life</span>
+            </figcaption>
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         8. MULTIMEDIA SECTION (Semantic <video>, <audio>, <figure>)
+         =================================================================== -->
+    <section class="section multimedia-section" id="multimedia">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">HTML5 Media Experience</span>
+          <h2 class="section-title">Department Multimedia Content</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Demonstrating native HTML5 rich media capabilities using semantic &lt;video&gt;, &lt;audio&gt;, &lt;figure&gt;, and &lt;figcaption&gt; elements with cross-browser fallback support.
+          </p>
+        </header>
+
+        <div class="multimedia-grid">
+
+          <!-- HTML5 Video Showcase -->
+          <!-- SEMANTIC HTML5: <figure> encapsulates media content with an associated caption -->
+          <figure class="media-card video-card">
+            <header class="media-card-header">
+              <span class="media-type-badge">📹 HTML5 &lt;video&gt;</span>
+              <h3 class="media-title">Department Introduction Video</h3>
+              <p class="media-subtext">A high-definition virtual tour showcasing computer laboratories, server rooms, and student innovation areas.</p>
+            </header>
+
+            <div class="video-container">
+              <!-- SEMANTIC HTML5: Native <video> tag with controls, poster, width, and preload -->
+              <video 
+                id="deptVideo" 
+                class="responsive-video" 
+                controls 
+                poster="images/video-poster.svg" 
+                width="720"
+                preload="metadata"
+                aria-label="Department of Computer Science &amp; Engineering Virtual Tour Video">
+                <source src="media/department-tour.mp4" type="video/mp4">
+                <!-- HTML5 Fallback message for older non-HTML5 browsers -->
+                <p>Your browser does not support the native HTML5 video element. You may download the video from <code>media/department-tour.mp4</code>.</p>
+              </video>
+            </div>
+
+            <!-- SEMANTIC HTML5: <figcaption> provides descriptive caption for the media element -->
+            <figcaption class="media-caption">
+              <strong>Department Introduction Video:</strong> Virtual exploration of CSE computing infrastructure, AI server nodes, and research amenities. Click playback controls above to play, pause, or view in full screen.
+            </figcaption>
+          </figure>
+
+          <!-- HTML5 Audio Showcase -->
+          <figure class="media-card audio-card">
+            <header class="media-card-header">
+              <span class="media-type-badge">🎙️ HTML5 &lt;audio&gt;</span>
+              <h3 class="media-title">Department Welcome Audio</h3>
+              <p class="media-subtext">Official welcome address delivered by the Head of Department to incoming engineering candidates.</p>
+            </header>
+
+            <div class="audio-poster-box">
+              <img src="images/audio-poster.svg" alt="Audio waveform graphic of the HOD welcome address" class="audio-graphic" width="600" height="240">
+            </div>
+
+            <div class="audio-player-wrapper">
+              <!-- SEMANTIC HTML5: Native <audio> element with controls and multi-format fallback -->
+              <audio 
+                id="deptAudio" 
+                class="responsive-audio" 
+                controls 
+                preload="metadata"
+                aria-label="Department of Computer Science Welcome Audio Message">
+                <source src="media/welcome-audio.wav" type="audio/wav">
+                <source src="media/welcome-audio.mp3" type="audio/mpeg">
+                <p>Your browser does not support the native HTML5 audio element.</p>
+              </audio>
+            </div>
+
+            <figcaption class="media-caption">
+              <strong>Department Welcome Audio:</strong> Listen to Dr. Rajesh Sharma discuss academic philosophy, engineering innovation ethics, and career pathways.
+            </figcaption>
+
+            <!-- Technical HTML5 note for assignment grading -->
+            <div class="media-tech-spec">
+              <h4>HTML5 Multimedia Implementation Note:</h4>
+              <p>
+                This section demonstrates compliance with modern HTML5 media standards:
+              </p>
+              <!-- HTML5 List: Unordered <ul> -->
+              <ul>
+                <li>Semantic <code>&lt;figure&gt;</code> and <code>&lt;figcaption&gt;</code> pairing.</li>
+                <li>Standard <code>&lt;video controls poster="..."&gt;</code> with responsive CSS.</li>
+                <li>Accessible <code>&lt;audio controls&gt;</code> supporting multiple source formats (.wav and .mp3).</li>
+                <li>Local media files placed cleanly in the <code>/media</code> project directory.</li>
+              </ul>
+            </div>
+          </figure>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         9. CONTACT SECTION (Semantic <section id="contact">)
+         =================================================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <header class="section-header">
+          <span class="section-subtitle">Get In Touch</span>
+          <h2 class="section-title">Contact Department &amp; Inquiries</h2>
+          <div class="title-divider"></div>
+          <p class="section-lead">
+            Have questions regarding admissions, curriculum, research collaborations, or lab visits? Reach out to our faculty and administrative coordinators.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+
+          <!-- Department Contact Information Cards -->
+          <!-- SEMANTIC HTML5: <address> element specifies contact details -->
+          <div class="contact-info-column">
+            
+            <div class="info-block contact-card">
+              <h3 class="contact-block-title">Department Coordinates</h3>
+              <address class="contact-details">
+                <div class="contact-detail-row">
+                  <span class="detail-icon">📍</span>
+                  <div>
+                    <strong>Campus Address:</strong><br>
+                    Department of Computer Science &amp; Engineering<br>
+                    Academic Block 3, JECRC Campus<br>
+                    Sitapura Industrial Area, Jaipur, Rajasthan 302022
+                  </div>
+                </div>
+
+                <div class="contact-detail-row">
+                  <span class="detail-icon">📞</span>
+                  <div>
+                    <strong>Phone Numbers:</strong><br>
+                    <!-- HTML5 Link: tel: link -->
+                    General Desk: <a href="tel:+911412770232">+91 (141) 2770232</a><br>
+                    Admissions Helpline: <a href="tel:+919829012345">+91 98290 12345</a>
+                  </div>
+                </div>
+
+                <div class="contact-detail-row">
+                  <span class="detail-icon">✉️</span>
+                  <div>
+                    <strong>Electronic Mail:</strong><br>
+                    <!-- HTML5 Link: mailto: link -->
+                    Inquiries: <a href="mailto:cse.info@jecrc.ac.in">cse.info@jecrc.ac.in</a><br>
+                    HOD Office: <a href="mailto:hod.cse@jecrc.ac.in">hod.cse@jecrc.ac.in</a>
+                  </div>
+                </div>
+
+                <div class="contact-detail-row">
+                  <span class="detail-icon">🕒</span>
+                  <div>
+                    <strong>Administrative Office Hours:</strong><br>
+                    Monday – Friday: 9:00 AM – 5:00 PM<br>
+                    Saturday: 9:00 AM – 1:00 PM (Research Labs Open 24/7)<br>
+                    Sunday &amp; Gazetted Holidays: Closed
+                  </div>
+                </div>
+              </address>
+            </div>
+
+            <!-- Quick FAQ with HTML5 <details> & <summary> -->
+            <div class="info-block faq-card">
+              <h3 class="contact-block-title">Frequently Asked Questions</h3>
+              
+              <!-- SEMANTIC HTML5: <details> and <summary> disclosure widget -->
+              <details class="faq-item">
+                <summary>How can I arrange a physical laboratory tour?</summary>
+                <p>Prospective candidates and parents can schedule a guided tour of our AI cluster and computing labs on any working Saturday by contacting the admissions desk.</p>
+              </details>
+
+              <details class="faq-item">
+                <summary>Are research internships available for undergraduate students?</summary>
+                <p>Yes. Students maintaining a CGPA of 8.0 and above may apply for faculty-supervised research fellowships starting from their 4th semester.</p>
+              </details>
+
+              <details class="faq-item">
+                <summary>What programming languages are taught in the first year?</summary>
+                <p>The foundation year curriculum emphasizes algorithmic thinking through C, C++, and Python alongside standard Git version control.</p>
+              </details>
+            </div>
+
+          </div>
+
+          <!-- Complete HTML5 Form Column -->
+          <div class="contact-form-column">
+            <div class="form-container-card">
+              
+              <div class="form-header">
+                <h3>Department Inquiry &amp; Feedback Form</h3>
+                <p>Please complete all required fields. Our academic advisors respond within 2 working days.</p>
+              </div>
+
+              <!-- SEMANTIC HTML5 FORM -->
+              <form id="contactForm" class="department-form" novalidate>
+                
+                <!-- Full Name: type="text", required, minlength -->
+                <div class="form-group">
+                  <label for="fullName" class="form-label">
+                    Full Name <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="fullName" 
+                    name="fullName" 
+                    class="form-control" 
+                    placeholder="e.g. Aarav Sharma" 
+                    required 
+                    minlength="3" 
+                    maxlength="60"
+                    autocomplete="name">
+                  <span class="form-error" id="nameError" aria-live="polite"></span>
+                </div>
+
+                <!-- Two column row: Email and Phone -->
+                <div class="form-row">
+                  <!-- Email: type="email", required -->
+                  <div class="form-group col-half">
+                    <label for="emailAddress" class="form-label">
+                      Email Address <span class="required-indicator" aria-hidden="true">*</span>
+                    </label>
+                    <input 
+                      type="email" 
+                      id="emailAddress" 
+                      name="email" 
+                      class="form-control" 
+                      placeholder="name@example.com" 
+                      required 
+                      autocomplete="email">
+                    <span class="form-error" id="emailError" aria-live="polite"></span>
+                  </div>
+
+                  <!-- Phone: type="tel", pattern, required -->
+                  <div class="form-group col-half">
+                    <label for="phoneNumber" class="form-label">
+                      Phone Number <span class="required-indicator" aria-hidden="true">*</span>
+                    </label>
+                    <input 
+                      type="tel" 
+                      id="phoneNumber" 
+                      name="phone" 
+                      class="form-control" 
+                      placeholder="10-digit mobile number" 
+                      required 
+                      pattern="[0-9]{10}" 
+                      maxlength="10"
+                      autocomplete="tel">
+                    <span class="form-error" id="phoneError" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <!-- Course Selection: <select> with <optgroup> and <option> -->
+                <div class="form-group">
+                  <label for="courseSelect" class="form-label">
+                    Program of Interest <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <select id="courseSelect" name="course" class="form-select" required>
+                    <option value="" disabled selected>-- Select an Academic Program --</option>
+                    <optgroup label="Four-Year Undergraduate Degree (B.Tech)">
+                      <option value="btech-cse">B.Tech Computer Science &amp; Engineering</option>
+                      <option value="btech-aiml">B.Tech Artificial Intelligence &amp; Machine Learning</option>
+                      <option value="btech-ds">B.Tech Data Science</option>
+                    </optgroup>
+                    <optgroup label="Professional Certification">
+                      <option value="diploma-web">Diploma in Full Stack Web Development</option>
+                      <option value="general-inquiry">General Department Inquiry</option>
+                    </optgroup>
+                  </select>
+                  <span class="form-error" id="courseError" aria-live="polite"></span>
+                </div>
+
+                <!-- Subject: type="text", required -->
+                <div class="form-group">
+                  <label for="subjectInput" class="form-label">
+                    Subject / Topic <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <input 
+                    type="text" 
+                    id="subjectInput" 
+                    name="subject" 
+                    class="form-control" 
+                    placeholder="e.g. Admission syllabus &amp; scholarship queries" 
+                    required 
+                    minlength="5" 
+                    maxlength="100">
+                  <span class="form-error" id="subjectError" aria-live="polite"></span>
+                </div>
+
+                <!-- Message: <textarea>, required, minlength, maxlength -->
+                <div class="form-group">
+                  <label for="messageText" class="form-label">
+                    Detailed Message <span class="required-indicator" aria-hidden="true">*</span>
+                  </label>
+                  <textarea 
+                    id="messageText" 
+                    name="message" 
+                    rows="4" 
+                    class="form-textarea" 
+                    placeholder="Please articulate your query or feedback in detail (min 10 characters)..." 
+                    required 
+                    minlength="10" 
+                    maxlength="600"></textarea>
+                  <div class="char-count-wrap">
+                    <span class="char-counter" id="charCounter">0 / 600 characters</span>
+                  </div>
+                  <span class="form-error" id="messageError" aria-live="polite"></span>
+                </div>
+
+                <!-- Radio Buttons: Preferred Contact Method (fieldset & legend) -->
+                <fieldset class="form-fieldset">
+                  <legend class="form-legend">Preferred Mode of Communication:</legend>
+                  <div class="radio-group">
+                    <label class="radio-label">
+                      <input type="radio" name="contactMethod" value="email" checked>
+                      <span>Email</span>
+                    </label>
+                    <label class="radio-label">
+                      <input type="radio" name="contactMethod" value="phone">
+                      <span>Phone Call</span>
+                    </label>
+                    <label class="radio-label">
+                      <input type="radio" name="contactMethod" value="whatsapp">
+                      <span>WhatsApp</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <!-- Checkbox: Agreement / Newsletter -->
+                <div class="form-group checkbox-group">
+                  <label class="checkbox-label" for="agreeTerms">
+                    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                    <span>I confirm that the details provided are accurate and I consent to receive academic notifications. <span class="required-indicator">*</span></span>
+                  </label>
+                  <span class="form-error" id="termsError" aria-live="polite"></span>
+                </div>
+
+                <!-- Form Action Buttons: Submit & Reset -->
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                    Submit Inquiry Form
+                  </button>
+                  <button type="reset" class="btn btn-secondary btn-reset" id="resetBtn">
+                    Clear / Reset
+                  </button>
+                </div>
+
+              </form>
+
+              <!-- Inline Success Notification Message (shown upon successful validation) -->
+              <div class="form-status-alert success-alert" id="formSuccessAlert" role="alert" style="display: none;">
+                <div class="status-alert-icon">✅</div>
+                <div class="status-alert-content">
+                  <h4>Inquiry Successfully Submitted!</h4>
+                  <p id="successSummaryText">Thank you! Your academic inquiry has been registered with the CSE Department. An automated acknowledgment has been dispatched.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================================
+       10. FOOTER (Semantic <footer>)
+       =================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <!-- Footer Brand Column -->
+      <div class="footer-col footer-brand-col">
+        <a href="#hero" class="footer-logo-link">
+          <img src="images/college-logo.svg" alt="JECRC Institute of Technology Emblem" class="footer-logo" width="220" height="55">
+        </a>
+        <p class="footer-about">
+          <strong>JECRC Institute of Technology</strong><br>
+          Department of Computer Science &amp; Engineering.<br>
+          Committed to academic rigor, scientific innovation, ethical leadership, and high-impact computing research.
+        </p>
+        <div class="assignment-disclaimer-badge">
+          <span>🎓 Academic Demo • HTML5 Web Page Development</span>
+        </div>
+      </div>
+
+      <!-- Footer Quick Links Column -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Home / Hero</a></li>
+          <li><a href="#about">About Department</a></li>
+          <li><a href="#courses">Courses &amp; Syllabus</a></li>
+          <li><a href="#faculty">Faculty Directory</a></li>
+          <li><a href="#achievements">Student Laurels</a></li>
+          <li><a href="#gallery">Campus Gallery</a></li>
+          <li><a href="#multimedia">Multimedia Tour</a></li>
+          <li><a href="#contact">Contact &amp; Admissions</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Academic Programs Column -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Academic Offerings</h4>
+        <ul class="footer-links">
+          <li><a href="#courses">B.Tech Computer Science</a></li>
+          <li><a href="#courses">B.Tech AI &amp; Machine Learning</a></li>
+          <li><a href="#courses">B.Tech Data Science</a></li>
+          <li><a href="#courses">Diploma in Web Development</a></li>
+          <li><a href="#about">Research Labs &amp; Centers</a></li>
+          <li><a href="#achievements">CodeStorm Hackathons</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Contact & Social Column -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Department Office</h4>
+        <address class="footer-address">
+          Academic Block 3, JECRC Campus<br>
+          Sitapura Industrial Area, Jaipur 302022<br><br>
+          <strong>Email:</strong> <a href="mailto:cse.info@jecrc.ac.in">cse.info@jecrc.ac.in</a><br>
+          <strong>Helpline:</strong> <a href="tel:+911412770232">+91 141 2770232</a>
+        </address>
+
+        <!-- Social Media Links (Semantic external links with aria-label) -->
+        <div class="footer-social-wrap">
+          <span class="social-label">Connect with CSE:</span>
+          <div class="social-icons">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Visit JECRC CSE on LinkedIn">
+              <span>in</span>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Visit JECRC CSE Student Repositories on GitHub">
+              <span>gh</span>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Watch JECRC Tech Lectures on YouTube">
+              <span>yt</span>
+            </a>
+            <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Follow JECRC CSE on X / Twitter">
+              <span>𝕏</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; 2026 JECRC Institute of Technology — Department of Computer Science &amp; Engineering. All rights reserved.
+        </p>
+        <p class="developer-credit">
+          Designed and developed as an <strong>HTML5 Web Page Development Assignment</strong>. Clean Semantic Code &bull; Vanilla JavaScript &bull; CSS3.
+        </p>
+        <a href="#hero" class="back-to-top" id="backToTop" aria-label="Return to top of page">
+          ↑ Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       MODAL DIALOGS (HTML5 <dialog> element for Lightbox & Course Details)
+       =================================================================== -->
+  
+  <!-- 1. Gallery Lightbox Modal -->
+  <dialog id="galleryModal" class="html5-dialog" aria-labelledby="modalCaption">
+    <div class="dialog-content">
+      <button class="dialog-close-btn" id="closeGalleryModal" aria-label="Close image lightbox">&times;</button>
+      <div class="dialog-image-container">
+        <img src="" alt="" id="modalImage" class="modal-large-img">
+      </div>
+      <div class="dialog-info">
+        <span class="modal-badge" id="modalCategory">Category</span>
+        <h3 id="modalCaption" class="modal-title">Image Title</h3>
+        <p id="modalDesc" class="modal-description">Detailed image description</p>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 2. Course Syllabus / Learn More Modal -->
+  <dialog id="courseModal" class="html5-dialog" aria-labelledby="courseModalTitle">
+    <div class="dialog-content course-dialog-content">
+      <button class="dialog-close-btn" id="closeCourseModal" aria-label="Close course modal">&times;</button>
+      <div class="dialog-info">
+        <span class="modal-badge" id="courseModalBadge">Curriculum Details</span>
+        <h3 id="courseModalTitle" class="modal-title">Program Title</h3>
+        <div id="courseModalBody" class="course-modal-text">
+          <!-- Populated dynamically via script.js -->
+        </div>
+        <div class="course-modal-actions">
+          <a href="#contact" class="btn btn-primary" id="courseInquireBtn">Inquire for Admission</a>
+          <button type="button" class="btn btn-secondary" id="closeCourseModalBtn">Close Window</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- External Vanilla JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
